@@ -1,0 +1,64 @@
+Magic 271485
+Revision Verdi_T-2022.06-SP2
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1914 312 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/summer/Desktop/Project/mips32_core_v2/rtl/build/test.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 4236950.000000
+cursor 550000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 3
+; marker line index
+markerPos 10
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "mips_sopc0"
+activeDirFile "" "/home/summer/Desktop/Project/mips32_core_v2/rtl/build/test.fsdb"
+addSignal -h 15 /testbench/mips_sopc0/clk
+addSignal -h 15 -holdScope rst
+addGroup "hilo0"
+addSignal -h 15 /testbench/mips_sopc0/mips32_core0/hilo0/clk
+addSignal -h 15 -holdScope rst
+addSignal -h 15 -holdScope hilo_en
+addSignal -h 15 -UNSIGNED -HEX -holdScope hi_in[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lo_in[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hi_out[31:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope lo_out[31:0]
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

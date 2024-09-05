@@ -1,0 +1,15 @@
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/defines.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/EXE.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/EXE_MEB.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/IF_IT.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/IT.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/IT_EXE.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/MEB.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/MEB_WB.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/MIPS32_CORE.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/PC.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/reg_group.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/src/HILO.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/sim/inst_rom.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/sim/mips_sopc.v
+/home/summer/Desktop/Project/mips32_core_v2/rtl/sim/testbench.v
